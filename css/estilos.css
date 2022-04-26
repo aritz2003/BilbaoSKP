@@ -80,16 +80,14 @@ footer{
 }
 footer ul li{
     list-style: none;
-    width: 30%;
-}
-.redes li{
     display: inline;
+    text-decoration: none;
 }
-
+footer ul li a{
+    text-decoration: none;
+    margin-left: 2%;
+}
 footer img{
     width: 4%;
 }
 
-.menuAuxiliar li a{
-    display: inline;
-}
