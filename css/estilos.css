@@ -6,7 +6,15 @@ nav {
     padding-top: 1%;
     background-color: #ff3b3b;
 }
-
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+main{
+    margin-top: 10%;
+}
 .brand {
     margin-left: 5%;
     line-height: 80px;
