@@ -1,6 +1,7 @@
 
 
 nav {
+    height: 100px;
     width: 100%;
     padding-top: 1%;
     background-color: #ff3b3b;
@@ -25,7 +26,7 @@ nav ul {
 
 nav ul LI {
     display: inline-block;
-    line-height: 80PX;
+    line-height: 60PX;
     margin-left: 20px;
     background-color: transparent;
     color: black;
@@ -57,8 +58,7 @@ nav ul li a {
     text-decoration: none;
 }
 .brand img {
-    margin-top: 5px;
-    height: 100px;
+    height: 80px;
     transition: transform 0.5s;
 }
 .brand img:hover {
