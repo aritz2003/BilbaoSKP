@@ -2,12 +2,6 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-nav {
-    height: 100px;
-    width: 100%;
-    padding-top: 1%;
-    background-color: #ff3b3b;
-}
 h1{
     text-align: center;
     font-size: 3em;
@@ -16,21 +10,29 @@ span{
     font-size: 1.5em;
     color: #ff3b3b;
 }
+/*Header*/
+nav {
+    height: 100px;
+    width: 100%;
+    padding-top: 1%;
+    background-color: #ff3b3b;
+}
 header{
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
 }
+
 main{
     margin: 0 auto;
     margin-top: 10%;
     width: 80%;
 }
+
 .brand {
     margin-left: 5%;
     line-height: 80px;
-   
 }
 
 .brand a {
@@ -41,7 +43,6 @@ main{
 nav ul {
     float: right;
     margin-right: 10px;
-    
 }
 
 nav ul LI {
@@ -50,10 +51,6 @@ nav ul LI {
     margin-left: 20px;
     background-color: transparent;
     color: black;
-    
-    
-    /* Green */
-    /*Borde*/
     -moz-border-radius-topleft: 19px;
     -moz-border-radius-topright: 19px;
     -moz-border-radius-bottomleft: 19px;
@@ -77,14 +74,15 @@ nav ul li a {
     padding: 15px;
     text-decoration: none;
 }
+
 .brand img {
     height: 80px;
     transition: transform 0.5s;
 }
+
 .brand img:hover {
     transform: skewX(10deg);
 }
-
 
 .menu li:hover {
     transform: scale(1.15);
@@ -94,25 +92,26 @@ nav ul li a {
     color: #a81212;
 }
 
-
+/*Footer*/
 footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 footer ul li{
     list-style: none;
     display: inline;
     text-decoration: none;
 }
+
 footer ul li a{
     text-decoration: none;
     margin-left: 2%;
 }
+
 footer img{
     width: 4%;
 }
-
-
 
 /*Slider*/
 .slideshow-container { 
@@ -121,9 +120,11 @@ footer img{
     width: 40%;
     margin-top: 3%;
 }
+
 .mySlides {
     display: none;
 }
+
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -133,6 +134,7 @@ footer img{
     width: 100%;
     text-align: center;
 }
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -143,8 +145,8 @@ footer img{
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.active,
-.dot:hover {
+
+.active,.dot:hover {
     background-color: #717171;
 }
 
@@ -158,6 +160,7 @@ footer img{
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
 @-webkit-keyframes fade {
     from {
         opacity: .4
@@ -176,8 +179,4 @@ footer img{
     to {
         opacity: 1
     }
-}
-
-.slideshow-container{
-    border: 2px solid #a81212;
 }
