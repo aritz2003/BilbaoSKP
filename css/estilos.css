@@ -147,7 +147,9 @@ footer img{
 .mySlides {
     display: none;
 }
-
+.ftsl{
+    border-radius: 10px;
+}
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -291,7 +293,7 @@ textarea {
 }
 /*Inicio*/
 #bienvenida{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
