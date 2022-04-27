@@ -109,7 +109,9 @@ footer{
     width: 80%;
     margin: 0 auto;
 }
-
+ul.redes {
+    margin: 0;
+}
 footer ul li{
     list-style: none;
     display: inline;
@@ -124,9 +126,7 @@ footer ul li a{
 footer img{
     width: 4%;
 }
-#redes ul{
-    margin-top: 0px;
-}
+
 
 /*Slider*/
 .slideshow-container { 
@@ -265,5 +265,8 @@ form p{
     border-radius: 10px;
     background-color: rgb(210, 204, 204);
     margin-top: 5%;
+}
+#mapa{
+    padding-bottom: 5%;
 }
 
