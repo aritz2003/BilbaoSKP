@@ -181,3 +181,29 @@ footer img{
         opacity: 1
     }
 }
+
+.idiom{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    margin-top: 0.2em;
+    margin-left: -2em;
+    display: flex;
+}
+.idio {
+    padding: 0 2px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.idio a{
+    color: #fff;
+    font-size: 15px;
+}
+.idio a:hover{
+    color: #3696DD;
+}
+a{
+    text-decoration: none;
+}
