@@ -1,16 +1,29 @@
 
-
+/*General*/
 body{
     font-family: 'Oswald', sans-serif;
 }
 h1{
     text-align: center;
     font-size: 3em;
+    padding-top: 5%;
 }
 span{
     font-size: 1.5em;
     color: #ff3b3b;
 }
+
+main{
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 80%;
+    background-color: white;
+    
+}
+body{
+    background-color: #717171;
+}
+
 /*Header*/
 nav {
     height: 100px;
@@ -25,11 +38,6 @@ header{
     left: 0;
 }
 
-main{
-    margin: 0 auto;
-    margin-top: 10%;
-    width: 80%;
-}
 
 .brand {
     margin-left: 5%;
@@ -97,6 +105,9 @@ nav ul li a {
 footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
 }
 
 footer ul li{
@@ -112,6 +123,9 @@ footer ul li a{
 
 footer img{
     width: 4%;
+}
+#redes ul{
+    margin-top: 0px;
 }
 
 /*Slider*/
@@ -181,7 +195,7 @@ footer img{
         opacity: 1
     }
 }
-
+/*Idomas*/
 .idiom{
     top: 0;
     left: 0;
@@ -207,3 +221,49 @@ footer img{
 a{
     text-decoration: none;
 }
+/*Formulario*/
+input, textarea{
+    background-color: #e4e2e2;
+    border: 0;
+    border-radius: 5px;
+    
+}
+input{
+    height: 30px;
+    
+}
+form{
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 10%;
+    background-color: rgb(210, 204, 204);
+}
+label{
+    text-align: left;
+}
+#contactH, #mapa{
+    text-align: center;
+}
+form p{
+    margin-left: 5%;
+}
+#botones{
+    text-align: center;
+}
+#botones input{
+    margin-left: 3%;
+}
+.asterisco{
+    font-size: 1em;
+}
+/*Mapa y Datos*/
+#datos{
+    border: 2px solid red;
+    width: 20%;
+    margin: 0 auto;   
+    border-radius: 10px;
+    background-color: rgb(210, 204, 204);
+    margin-top: 5%;
+}
+
