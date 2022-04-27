@@ -260,6 +260,13 @@ form p{
 .asterisco{
     font-size: 1em;
 }
+textarea {
+    resize: none;
+}
+.btn{
+    background-color: #ff3b3b;
+    color: #fff;
+}
 /*Mapa y Datos*/
 #datos{
     border: 2px solid red;
@@ -267,9 +274,9 @@ form p{
     margin: 0 auto;   
     border-radius: 10px;
     background-color: rgb(210, 204, 204);
-    margin-top: 5%;
 }
 #mapa{
     padding-bottom: 5%;
 }
+
 
