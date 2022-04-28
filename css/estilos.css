@@ -10,6 +10,10 @@ h1{
     padding-top: 5%;
     margin: 0;
 }
+h2{
+    margin-bottom: 0;
+    margin-top: 5%;
+}
 span{
     font-size: 1.5em;
     color: #ff3b3b;
@@ -97,12 +101,15 @@ nav ul li a {
     transform: skewX(10deg);
 }
 
-.menu li:hover {
+#menu li:hover {
     transform: scale(1.15);
 }
 
-.menu li a:hover {
+#menu li a:hover {
     color: #a81212;
+}
+ul#menu{
+    margin-top: 1%;
 }
 
 /*Footer*/
@@ -293,6 +300,11 @@ textarea {
 #fotoQS{
     width: 58%;
     border-radius: 8px;
+}
+#fotoQS2{
+    width: 70%;
+    border-radius: 8px;
+    margin: 4% 0;
 }
 /*Inicio*/
 #bienvenida{
