@@ -240,7 +240,7 @@ input, textarea{
     border-radius: 5px;
     
 }
-.inputs, .textarea{
+form{
 text-align: left;
 }
 input{
@@ -298,5 +298,12 @@ textarea {
 #bienvenida{
     width: 50%;
     margin: 0 auto;
+}
+/*Quienes somos*/
+#presentacion{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
