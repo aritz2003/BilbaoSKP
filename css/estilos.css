@@ -111,6 +111,9 @@ nav ul li a {
 ul#menu{
     margin-top: 1%;
 }
+.estas{
+    color: #993939;
+}
 
 /*Footer*/
 footer{
@@ -140,6 +143,16 @@ footer ul li a{
 
 footer img{
     width: 4%;
+    margin-bottom: 2%;
+}
+.redes img {
+    transition: transform 0.5s;
+}
+.redes img:hover {
+    transform: scale(1.5);
+}
+footer article{
+    padding-bottom: 2%;
 }
 
 
