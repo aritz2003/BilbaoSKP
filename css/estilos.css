@@ -334,4 +334,126 @@ textarea {
     margin-bottom: 5%;
     margin-top: 3%;
 }
+/*Menu de hamburgesa*/
+.topnav {
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-top: .5em;
+    margin-right: 2%;
+    }
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #3696DD;
+    color: white;
+} 
+.b{
+    display: none;
+}
+/*Responsive*/
+@media(max-width:602px){
+    ul#menu{
+        display: none;
+    }
+    .topnav {
+        display: inline;
+        margin-top: 4%;
+    }
+    .brand{
+        display: none;
+    }
+    ul.idiom{
+        display: none;
+    }
+    .b{
+        display: inline;
+        margin-left: 5%;
+    }
+    .b img{
+        width: 10%;
+        margin-top: 3%;
+    }
+    h1{
+        margin-top: 20%;
+    }
+    .ruta{
+        display: none;
+    }
+    .slideshow-container{
+        width: 80%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .redes img{
+        width: 8%;
+    }
+    #bienvenida{
+        width: 79%;
+        font-size: 1.2em;
+    }
+    footer article{
+        font-size: 0.8em;
+    }
+    #presentacion{
+        text-align: justify;
+    }
+    #fotoQS2{
+        width: 80%;
+    }
+    .centrar{
+        text-align: center;
+    }
+    form{
+        width: 60%;
+    }
+    input#correo, input#nombre{
+        width: 72%;
+    }
+    .in, .textarea{
+        margin-left: 15%;
+    }
+    p#botones{
+        margin-right: 8%;
+    }
+    a.active{
+        background-color: white;
+        color: #000;
+        font-weight: bold;
+    }
+    div#datos{
+        width: 40%;
+    }
+}
 

@@ -2,132 +2,163 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="icon" href="imagenes/bilbao_logo_Dk9_icon.ico" type="imagenes/bilbao_logo_Dk9_icon.ico" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+  <link rel="icon" href="imagenes/bilbao_logo_Dk9_icon.ico" type="imagenes/bilbao_logo_Dk9_icon.ico" />
+  <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <label for="" class="brand">
-                <a href="index.html"><img src="imagenes/BilbaoBlanco.png"></a>
-            </label>
-            <ul id="menu">
-                <li><a href="quienesSomos.html">QUIENES SOMOS</a></li>
-                <li><a href="localhost:8080/JuegosBilbaoSKP/index.jsp">JUGAR</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-
-        </nav>
-        <ul class="idiom">
-          <li class="idio"><a href="index.html">🇪🇸</a></li>
-          <li class="idio">/</li>
-          <li class="idio"><a href="inicioIN.html">🇬🇧</a></li>
-        </ul>
-    </header>
-    <p class="ruta">Inicio</p>
-    <main>
-        <h1><span>B</span>ienvenido A <span>B</span>ilbaoSKP</h1>
-
-        <br>
-
-        <article>
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-    
-              <!-- Full-width images with number and caption text -->
-              <div class="mySlides fade">
-    
-                <img class="ftsl" src="imagenes/slider3.jpg" style="width:100%">
-              </div>
-    
-              <div class="mySlides fade">
-    
-                <img class="ftsl" src="imagenes/slider1.jpg" style="width:100%">
-              </div>
-    
-              <div class="mySlides fade">
-    
-                <img src="imagenes/parejaescape.png" style="width:100%">
-              </div>
-    
-            </div>
-            <br>
-    
-            <!-- The dots/circles -->
-            <div id="puntos" style="text-align:center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-    
-            <script>
-            var slideIndex = 0;
-            showSlides();
-    
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {
-                slideIndex = 1
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex - 1].style.display = "block";
-              dots[slideIndex - 1].className += " active";
-              setTimeout(showSlides, 3000); // Change image every 2 seconds
-            }
-          </script>
-          </article>
-          <div id="bienvenida">
-          <p>Bienvenido a nuestra página, somos una empresa dedicada a los Escape rooms.
-            En esta página encontrarás un apartado donde podrás conocer un poco más sobre nosotros, otro apartado donde podrás jugar nuestros Escape rooms online, y por último otro aparto donde podrás contacar con el soporte técnico directamente, por si te surge alguna duda.
-            ¡Esperamos ser de tu agrado!</p>
-          </div>
-          <br>
-
-
-
-    </main>
-    <footer>
-        <div>
-            <ul class="redes">
-                <li><a href="https://www.instagram.com/developers.aixa/" target="_blank"><img id="redes"
-                            src="imagenes/Instagram.png"></a></li>
-                <li><a href="https://www.facebook.com/Aixa-Web-Developers-107777825036011" target="_blank"><img
-                            id="redes" src="imagenes/Facebook.png"></a>
-                </li>
-                <li><a href="https://twitter.com/DevelopersAixa" target="_blank"><img id="redes"
-                            src="imagenes/twitter.png"></a>
-                </li>
-            </ul>
+  <header>
+    <nav>
+      <label for="" class="brand">
+        <a href="index.html"><img src="imagenes/BilbaoBlanco.png"></a>
+      </label>
+      <label class="b">
+        <a href="index.html"><img src="imagenes/BdeBilbao.png"></a>
+      </label>
+      <ul id="menu">
+        <li><a href="quienesSomos.html">QUIENES SOMOS</a></li>
+        <li><a href="localhost:8080/JuegosBilbaoSKP/index.jsp">JUGAR</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+      <!--Menú de hamburgesa-->
+      <div class="topnav">
+        <a href="index.html" class="active">INICIO</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="quienesSomos.html">QUIENES SOMOS</a>
+          <a href="localhost:8080/JuegosBilbaoSKP/index.jsp">JUGAR</a>
+          <a href="contacto.html">CONTACTO</a>
+          <a href="inicioIN.html">CHANGE LANGUAGE</a>
         </div>
-        <br>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
-        <article>
-            <ul>
-                <li><a href="Privacidad/POLITICA DE PRIVACIDAD.pdf" download="Aviso
+    </nav>
+    <ul class="idiom">
+      <li class="idio"><a href="index.html">🇪🇸</a></li>
+      <li class="idio">/</li>
+      <li class="idio"><a href="inicioIN.html">🇬🇧</a></li>
+    </ul>
+  </header>
+  <p class="ruta">Inicio</p>
+  <main>
+    <h1><span>B</span>ienvenido A <span>B</span>ilbaoSKP</h1>
+
+    <br>
+
+    <article>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+          <img class="ftsl" src="imagenes/slider3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+
+          <img class="ftsl" src="imagenes/slider1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="imagenes/parejaescape.png" style="width:100%">
+        </div>
+
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div id="puntos" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+      </script>
+    </article>
+    <div id="bienvenida">
+      <p>Bienvenido a nuestra página, somos una empresa dedicada a los Escape rooms.
+        En esta página encontrarás un apartado donde podrás conocer un poco más sobre nosotros, otro apartado donde
+        podrás jugar nuestros Escape rooms online, y por último otro aparto donde podrás contacar con el soporte técnico
+        directamente, por si te surge alguna duda.
+        <p class="centrar">¡Esperamos ser de tu agrado!</p></p>
+    </div>
+    <br>
+
+
+
+  </main>
+  <footer>
+    <div>
+      <ul class="redes">
+        <li><a href="https://www.instagram.com/developers.aixa/" target="_blank"><img id="redes"
+              src="imagenes/Instagram.png"></a></li>
+        <li><a href="https://www.facebook.com/Aixa-Web-Developers-107777825036011" target="_blank"><img id="redes"
+              src="imagenes/Facebook.png"></a>
+        </li>
+        <li><a href="https://twitter.com/DevelopersAixa" target="_blank"><img id="redes" src="imagenes/twitter.png"></a>
+        </li>
+      </ul>
+    </div>
+    <br>
+
+    <article>
+      <ul>
+        <li><a href="Privacidad/POLITICA DE PRIVACIDAD.pdf" download="Aviso
                 legal y politica de privacidad"> Aviso
-                        legal y política de privacidad</a></li>
-                <li><a href="Privacidad/POLÍTICA DE COOKIES.pdf" download="Política
+            legal y política de privacidad</a></li>
+        <li><a href="Privacidad/POLÍTICA DE COOKIES.pdf" download="Política
                 de Cookies">Cookies</a></li>
-            </ul>
-        </article>
-    </footer>
+      </ul>
+    </article>
+  </footer>
 
 </body>
 

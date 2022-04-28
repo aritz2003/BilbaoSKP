@@ -11,6 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="icon" href="imagenes/bilbao_logo_Dk9_icon.ico" type="imagenes/bilbao_logo_Dk9_icon.ico" />
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
 </head>
 
 <body>
@@ -19,12 +31,29 @@
             <label for="" class="brand">
                 <a href="index.html"><img src="imagenes/BilbaoBlanco.png"></a>
             </label>
+            <label class="b">
+                <a href="index.html"><img src="imagenes/BdeBilbao.png"></a>
+              </label>
             <ul id="menu">
                 <li><a class="estas" href="quienesSomos.html">QUIENES SOMOS</a></li>
                 <li><a href="localhost:8080/JuegosBilbaoSKP/index.jsp">JUGAR</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-
+            <!--Menú de hamburgesa-->
+      <div class="topnav">
+        <a href="quienesSomos.html" class="active">QUIENES SOMOS</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="quienesSomos.html">QUIENES SOMOS</a>
+          <a href="localhost:8080/JuegosBilbaoSKP/index.jsp">JUGAR</a>
+          <a href="contacto.html">CONTACTO</a>
+          <a href="quienesSomosIn.html">CHANGE LANGUAGE</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         </nav>
         <ul class="idiom">
             <li class="idio"><a href="quienesSomos.html">🇪🇸</a></li>
@@ -36,7 +65,8 @@
     <main>
         <h1><span>Q</span>uienes <span>S</span>omos</h1>
         <p id="presentacion">
-            BilbaoSKP es una empresa dedicada a los Escape rooms online, fue creada en 2015 en Bilbao, con el objetivo de
+            BilbaoSKP es una empresa dedicada a los Escape rooms online, fue creada en 2015 en Bilbao, con el objetivo
+            de
             crear nuevos juegos online para sus clientes.
 
             Trabajamos desde una oficina muy bien ubicada en el centro de Bilbao, la cual se encuentra en Calle
@@ -57,11 +87,10 @@
 
 
 
-    <article>
-        <h2><span>O</span>rganigrama de la <span>E</span>mpresa</h2>
-        <img id="fotoQS2" src="imagenes/Organigrama.drawio.png" alt=""
-            class="nuestrafoto">
-    </article>
+        <article>
+            <h2><span>O</span>rganigrama de la <span>E</span>mpresa</h2>
+            <img id="fotoQS2" src="imagenes/Organigrama.drawio.png" alt="" class="nuestrafoto">
+        </article>
 
 
     </main>

@@ -11,6 +11,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="icon" href="imagenes/bilbao_logo_Dk9_icon.ico" type="imagenes/bilbao_logo_Dk9_icon.ico" />
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
 </head>
 
 <body>
@@ -19,12 +31,29 @@
             <label for="" class="brand">
                 <a href="inicioIn.html"><img src="imagenes/BilbaoBlanco.png"></a>
             </label>
+            <label class="b">
+                <a href="inicioIn.html"><img src="imagenes/BdeBilbao.png"></a>
+              </label>
             <ul id="menu">
                 <li><a href="quienesSomosIn.html">ABOUT US</a></li>
                 <li><a href="localhost:8080/JuegosBilbaoSKP/index.jsp">PLAY</a></li>
                 <li><a class="estas" href="contactoIn.html">CONTACT</a></li>
             </ul>
-
+           <!--Menú de hamburgesa-->
+      <div class="topnav">
+        <a href="contactoIn.html" class="active">CONTACT</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="quienesSomosIn.html">ABOUT US</a>
+          <a href="localhost:8080/JuegosBilbaoSKP/index.jsp">PLAY</a>
+          <a href="contactoIn.html">CONTACT</a>
+          <a href="contacto.html">CAMBIAR LENGUAJE</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         </nav>
         <ul class="idiom">
             <li class="idio"><a href="contacto.html">🇪🇸</a></li>
@@ -39,15 +68,17 @@
             <section id="contacto">
                 <h2 id="contactH"><span>C</span>ONTACT US</h1>
                     <form>
-                        <p>
+                        <p class="in"></p>>
                             <label class="label" for="nombre">Name:<span class="asterisco">(*)</span></label>
                             <br>
-                            <input type="text" name="nombre" id="nombre" placeholder="Introduce your name" size="33" required>
+                            <input type="text" name="nombre" id="nombre" placeholder="Introduce your name" size="33"
+                                required>
                         </p>
-                        <p>
+                        <p class="in"></p>>
                             <label class="label" for="correo">Email:<span class="asterisco">(*)</span></label>
                             <br>
-                            <input type="email" name="correo" id="correo" placeholder="youremail@email.com" size="33" required>
+                            <input type="email" name="correo" id="correo" placeholder="youremail@email.com" size="33"
+                                required>
                         </p>
                         <p class="textarea">
                             <label for="mensaje">Message:</label>
