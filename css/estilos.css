@@ -240,6 +240,9 @@ input, textarea{
     border-radius: 5px;
     
 }
+.inputs, .textarea{
+text-align: left;
+}
 input{
     height: 30px;
     
