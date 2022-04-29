@@ -33,6 +33,7 @@ body{
 .ruta{
     color: white;
     float: left;
+    position: fixed;
 }
 /*Header*/
 nav {
